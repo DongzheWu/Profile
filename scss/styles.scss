@@ -34,8 +34,8 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
-$base-color-hover: darken($base-color, 10%);
+$base-color: #616263;
+$base-color-hover: darken($base-color, 23%);
 
 // Define background colors
 $background: #fff;
@@ -85,7 +85,7 @@ $text: #74808a;
 */
 
 body {
-    font-family: 'Lato', sans-serif;
+    font-family: "Geomanist", Helvetica, Arial, sans-serif;
     font-size: 16px;
 
     &.active {
@@ -198,6 +198,8 @@ header {
     &.active {
         display: block;
     }
+    font-size: 20px;
+    font-weight: 700;
 }
 
 #mobile-menu-open {
@@ -350,7 +352,7 @@ footer {
     height: 100vh;
     min-height: 500px;
     max-height: 1080px;
-    background: url(../images/lead-bg.jpg);
+    background: url(../images/background.jpg);
     background-size: cover;
     padding: 15px;
     overflow: hidden;
@@ -451,6 +453,8 @@ footer {
 
     h2 {
         color: $heading;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
     }
 
     p {
@@ -472,6 +476,8 @@ footer {
 
     h2 {
         color: $heading;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
@@ -584,6 +590,8 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
@@ -638,6 +646,8 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
@@ -701,6 +711,8 @@ footer {
     h2 {
         color: $heading;
         margin-bottom: 50px;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
     }
 
     ul {
@@ -736,7 +748,8 @@ footer {
     h2 {
         margin: 0 0 15px 0;
         color: #fff;
-        font-weight: 500;
+        font-weight: 600;
+        font-family: 'Montserrat', sans-serif;
     }
 }
 
